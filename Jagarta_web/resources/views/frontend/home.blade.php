@@ -87,15 +87,16 @@
 			</div>
 		</section>
 
-		<section style="width: 100%; height: 400px; background-image: url({{asset('img/value.png')}}); background-size: cover; border-top: none; padding-top: 1%;">
-			<div class="col-lg-12" style="height: 200px;">
-				<div class="container" style="height: 300px;">
-					<div class="row" style="height: 300px;">
+		<!-- section our value -->
+		<section class="section-value">
+			<div class="col-lg-12 height-200">
+				<div class="container height-300">
+					<div class="row height-300">
 						<div class="col-lg-12">
 							<h1 class="text-center value-title">Our Value <hr class="about-border"> </h1>
 						</div>
-						<div class="col-lg-12" style="position: relative; left: 0; right: 0; margin-left: 15%;" >
-							<p style="text-align: center; font-family: 'jagarta'; color: white; width: 800px;">Irure dolore incididunt veniam eiusmod tempor tempor dolore enim voluptate aute aliqua exercitation veniam magna dolor est dolor do ea nisi occaecat irure deserunt veniam ut mollit exercitation do eiusmod dolore duis qui ut sint amet do nisi cupidatat laborum cillum aliquip tempor dolore quis eiusmod do veniam minim commodo laborum aliqua mollit in adipisicing commodo adipisicing proident non laborum est commodo qui pariatur deserunt sint cillum occaecat ut labore dolore ut dolore excepteur ea in ex labore magna laboris occaecat in ea nisi elit ut irure in non elit excepteur consectetur commodo ut dolor fugiat ut aliquip duis ut ex occaecat cupidatat reprehenderit dolor adipisicing nostrud sed quis quis consectetur dolore in in ut nostrud sunt .</p>
+						<div class="col-lg-12 col-value-text" >
+							<p class="value-text-ps">Irure dolore incididunt veniam eiusmod tempor tempor dolore enim voluptate aute aliqua exercitation veniam magna dolor est dolor do ea nisi occaecat irure deserunt veniam ut mollit exercitation do eiusmod dolore duis qui ut sint amet do nisi cupidatat laborum cillum aliquip tempor dolore quis eiusmod do veniam minim commodo laborum aliqua mollit in adipisicing commodo adipisicing proident non laborum est commodo qui pariatur deserunt sint cillum occaecat ut labore dolore ut dolore excepteur ea in ex labore magna laboris occaecat in ea nisi elit ut irure in non elit excepteur consectetur commodo ut dolor fugiat ut aliquip duis ut ex occaecat cupidatat reprehenderit dolor adipisicing nostrud sed quis quis consectetur dolore in in ut nostrud sunt .</p>
 						</div>
 					</div>
 				</div>
