@@ -72,11 +72,11 @@
 									</div>
 
 								<a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
-									<i class="fas fa-angle-double-left carousel-but"></i>
+									<i class="fas fa-angle-double-left" style="font-size: 50px; color:  #AE5528"></i>
    									<span class="sr-only">Previous</span>
 								</a>
 								<a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
-    								<i class="fas fa-angle-double-right carousel-but" ></i>
+    								<i class="fas fa-angle-double-right" style="font-size: 50px; color:  #AE5528"></i>    							
     								<span class="sr-only">Next</span>
  								</a>
 								</div>
@@ -102,5 +102,44 @@
 				</div>
 			</div>
 		</section>
-	</main>
+
+		<section class="section-history">
+			<div class="container height-300">
+				<div class="row height-300">
+					<div class="col-lg-12">
+						<h1 class="text-center about-title">Our History <hr class="about-border"> </h1>
+					</div>
+					<div class="col-lg-12">
+						<div id="timeline-wrap">
+  							<div id="timeline"></div> 
+  							<div class="marker mfirst timeline-icon one">
+  								<p class="p-timeline">2017</p>
+  							</div>
+  							<div class="marker m2 timeline-icon two">
+  								<p class="p-timeline">2019</p>
+  							</div>
+							<div class="marker m3 timeline-icon three">
+								<p class="p-timeline">2021</p>
+							</div>
+							<div class="marker mlast timeline-icon four"></div>
+  						</div>
+
+					</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- section our team -->
+		<section class="section-team">
+			<div class="container height-1000">
+				<div class="row height-1000">
+					<div class="col-lg-12">
+						<h1 class="text-center about-title">Our Team <hr class="about-border"> </h1>
+					</div>
+					<div class="col-lg-12">
+					</div>
+			</div>
+		</section>
 @endsection
