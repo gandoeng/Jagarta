@@ -35,7 +35,7 @@
 			<div id="about">
 				<div class="container height-700" >
 					<div class="row height-700" >
-						<div class="col-lg-12" style="height: 200px;">
+						<div class="col-lg-12 height-200">
 							<h1 class="text-center about-title">About Us <hr class="about-border"> </h1>
 						</div>
 						<div class="col-lg-12 col-title-desc">
@@ -46,10 +46,10 @@
 								<div class="carousel-inner">
 									<div class="carousel-item carousel-ps active">
 										<div class="card card-ps">
-											<div class="row" style="margin-top: 10%;">
+											<div class="row m-top-10">
 											 	<div class="col-md-6">
 											 		<h5 class="h5-card-title">Independent Financial Advisor</h5>
-											 		<p style="font-family: 'jagarta'">Our scope of services Estabilished in 2017, Jagartha Group quickly grow as integrated ecosystem builder across the Industry with focused on Capital Market, Circular Economy and Creative Industry</p>
+											 		<p class="font-jagarta">Our scope of services Estabilished in 2017, Jagartha Group quickly grow as integrated ecosystem builder across the Industry with focused on Capital Market, Circular Economy and Creative Industry</p>
 											 	</div>
 											 	<div class="col-md-6">
 											 		<img src="{{asset('img/about/about1.png')}}" class="img-size-max">
@@ -59,10 +59,10 @@
 									</div>
 									<div class="carousel-item carousel-ps">
 										<div class="card card-ps">
-											<div class="row" style="margin-top: 10%;">
+											<div class="row m-top-10" >
 											 	<div class="col-md-6">
 											 		<h5 class="h5-card-title">Independent Financial Advisor</h5>
-											 		<p style="font-family: 'jagarta'">Our scope of services Estabilished in 2017, Jagartha Group quickly grow as integrated ecosystem builder across the Industry with focused on Capital Market, Circular Economy and Creative Industry</p>
+											 		<p class="font-jagarta">Our scope of services Estabilished in 2017, Jagartha Group quickly grow as integrated ecosystem builder across the Industry with focused on Capital Market, Circular Economy and Creative Industry</p>
 											 	</div>
 											 	<div class="col-md-6">
 											 		<img src="{{asset('img/about/about1.png')}}" class="img-size-max">
@@ -72,11 +72,11 @@
 									</div>
 
 								<a class="carousel-control-prev" href="#carouselAbout" role="button" data-slide="prev">
-									<i class="fas fa-angle-double-left" style="font-size: 50px; color:  #AE5528"></i>
+									<i class="fas fa-angle-double-left coroulus-i"></i>
    									<span class="sr-only">Previous</span>
 								</a>
 								<a class="carousel-control-next" href="#carouselAbout" role="button" data-slide="next">
-    								<i class="fas fa-angle-double-right" style="font-size: 50px; color:  #AE5528"></i>    							
+    								<i class="fas fa-angle-double-right coroulus-i" ></i>    							
     								<span class="sr-only">Next</span>
  								</a>
 								</div>
@@ -104,27 +104,84 @@
 		</section>
 
 		<section class="section-history">
-			<div class="container height-300">
-				<div class="row height-300">
+			<div class="container height-700">
+				<div class="row height-700">
 					<div class="col-lg-12">
 						<h1 class="text-center about-title">Our History <hr class="about-border"> </h1>
 					</div>
-					<div class="col-lg-12">
-						<div id="timeline-wrap">
-  							<div id="timeline"></div> 
-  							<div class="marker mfirst timeline-icon one">
-  								<p class="p-timeline">2017</p>
-  							</div>
-  							<div class="marker m2 timeline-icon two">
-  								<p class="p-timeline">2019</p>
-  							</div>
-							<div class="marker m3 timeline-icon three">
-								<p class="p-timeline">2021</p>
-							</div>
-							<div class="marker mlast timeline-icon four"></div>
-  						</div>
+					<div class="col-lg-12 ps-12-history">
+						<div id="carouselHistory" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">					
+								<div id="timeline-wrap">
 
-					</div>
+									<!--item 1-->
+									<div class="carousel-item active">
+										<div class="item-ln-ps">
+											<div id="timeline" class="timeline-ps" ></div>
+											<div class="row">
+												<!--item field-->
+												<!--2017-->
+												<div class="col">
+  													<div class="row item-col-ps">
+  														<div class="col">
+  															<div class="marker mfirst timeline-icon one">
+  																<p class="p-timeline">2017</p>
+  															</div>
+  														</div>
+  														<div class="w-100"></div>
+  														<div class="col">
+  															<p class="p-item1-ps">Tempor mollit ea consequat dolor officia nostrud adipisicing aliqua nisi excepteur ut ex dolor enim ut nulla eu veniam sint eu commodo occaecat.</p>
+  														</div>
+  													</div>
+  												</div>
+  												<!--2019-->
+  												<div class="col">
+  													<div class="row item-col-ps">
+  														<div class="col" style="margin-right: 50%;">
+  															<div class="marker m2 timeline-icon two">
+  																<p class="p-timeline">2019</p>
+  															</div>
+  														</div>
+  														<div class="w-100"></div>
+  														<div class="col">
+  															<p class="p-item2-ps">Lorem ipsum elit sit cillum cupidatat est sint minim ex cillum elit cupidatat tempor dolor aute velit tempor non nostrud adipisicing culpa cupidatat.</p>
+  														</div>
+  													</div>
+  												</div>
+  												<!--2021-->
+  												<div class="col">
+    												<div class="row item-col-ps">
+  														<div class="col" style="margin-right: 60%;">
+  															<div class="marker m3 timeline-icon three" style="position: relative;">
+																<p class="p-timeline">2021</p>
+															</div>
+  														</div>
+  														<div class="w-100"></div>
+  														<div class="col">
+  															<p class="p-item3-ps">Lorem ipsum consequat aliquip reprehenderit do excepteur velit sunt sed dolore mollit dolore ut cupidatat est irure non mollit do occaecat tempor in cupidatat fugiat deserunt cupidatat.</p>
+  														</div>
+  													</div>	
+   												</div>
+   												<!--item field end-->
+											</div>
+										</div>
+									</div>	
+
+									<!--item 2 -->
+
+
+								</div>
+							</div>
+
+							<a class="carousel-control-prev" href="#carouselHistory" role="button" data-slide="prev">
+								<i class="fas fa-angle-double-left coroulus-i"></i>
+   								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselHistory" role="button" data-slide="next">
+    							<i class="fas fa-angle-double-right coroulus-i"></i>    					
+    							<span class="sr-only">Next</span>
+ 							</a>
+						</div>
 
 					</div>
 				</div>

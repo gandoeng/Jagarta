@@ -28,11 +28,6 @@
     <script src="{{ mix('js/frontend.js') }}"></script>
     <script type="text/javascript" src="{{asset('js/particles.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
-    <script type="text/javascript">
-        $("i").click(function() {
-            $('.timeline-panel').show(0);
-        });
-    </script>
     <livewire:scripts />
     @stack('after-scripts')
 </body>
