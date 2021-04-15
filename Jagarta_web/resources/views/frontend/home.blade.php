@@ -17,12 +17,12 @@
 		<section class="section-leader-welcome">
 			<div class="container height-300">
 				<div class="row justify-content-center height-300" style="padding-top: 4%;">
-					<div class="col-4 p-white">
+					<div class="col-4 col-md-4 col-lg-4 col-sm-8 col-xs-12 p-white">
 						<h1 class="h1-call">Welcome</h1>
 						<h1 class="h1-call-future">Future</h1>
 						<h1 class="h1-call-leader">Leader!</h1>
 					</div>
-					<div class="col-6 p-white" style="margin-top: 30px;">
+					<div class="col-6 col-md-6 col-lg-6 col-sm-12 col-xs-12 p-white" style="margin-top: 30px;">
 						<p style="font-size: 14pt;">Jagartha group is a boutique, independently-owned Indonesia headquartered investment advisory firm overseeing more than $200mm+ capital dedicated to investing in Indonesia both in capital market and alternative assets.</p>
 						<p>Established in 2017, Jagartha Group focused on Capital Market, Circular Economy and Creative Industry At Jagartha, our mission is to enable our clients to achieve their financial objectives and solve their investment challenges by integrating sustainability across our offering and invesment solutions</p>
 					</div>
@@ -191,12 +191,81 @@
 		<!-- section our team -->
 		<section class="section-team">
 			<div class="container height-1000">
-				<div class="row height-1000">
-					<div class="col-lg-12">
-						<h1 class="text-center about-title">Our Team <hr class="about-border"> </h1>
+				<div class="row height-1000" style="margin-left: 8%;">
+					<div class="col-lg-12" style="height: 50px; z-index:1; ">
+						<h1 class="text-center about-team">Our Team <hr class="about-border"> </h1>
 					</div>
-					<div class="col-lg-12">
+			
+					<div class="team-col-ps">
+
+						<div class="row" style="height: 100%; width: 100%;">
+							<div class="col col-bio">
+								<img src="{{asset('img/team/mungki.png')}}" style="max-width: 100%; max-height: 100%;">
+							</div>
+							<div class="col col-bio" style="z-index: 1;">
+								<div class="triangle-left"></div>
+							</div>
+							<div style="z-index: 2; position: absolute; margin-left: 320px; margin-top: 65px; width: 500px; height: 300px;">
+								<h1 style="font-family: 'jagarta2'; color: #16145F; font-size: 36pt; ">Mungki Ariwibowo Adil</h1>
+								<p style="font-family: 'jagarta'; font-size: 10pt; position: relative; bottom: 15px;">Co-Founder <hr style="border-top: 4px solid; color: #AE5528; width: 80px; margin:0; position: relative; bottom: 20px;"></p>
+								<p style="font-size: 10pt; font-family: 'jagarta'; position: relative; bottom: 6%;">Before co-founding Jagartha in 2017, Ari Adil was Senior Executive Vice President of Mandiri Investasi. He started his career in Westpac Banking Group in Sydney and decided to move back to Indonesia joining Danareksa Investment in 2003. Later he decided to expand his role by joining Bank Julius Baer Singapore and was promoted to setup Julius Baer Advisors Indonesia as Director in 2008</p>
+							</div>
+
+							<div class="col col-bio" style="z-index: 1;">
+								<div class="triangle-left"></div>
+							</div>
+						</div>
+
+						<div class="row" style="height: 100%; width: 100%;">
+							<div class="col col-bio">
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+							<div class="col col-bio">
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+							<div class="col col-bio">
+								<img src="{{asset('img/team/iwan.png')}}" style="max-width: 100%; max-height: 100%;">
+							</div>
+						</div>
+
+						<div class="row" style="height: 100%; width: 100%;">
+							<div class="col col-bio">
+								<img src="{{asset('img/team/markus.png')}}" style="max-width: 100%; max-height: 100%;">
+							</div>
+							<div class="col col-bio">
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+							<div class="col col-bio">
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+						</div>
+
+						<div class="row" style="height: 100%; width: 100%;">
+							<div class="col col-bio" >
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+							<div class="col col-bio">
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+							<div class="col col-bio" style="background-color: #6B6A74;">
+							</div>
+						</div>
+
+						
 					</div>
+				</div>
 			</div>
 		</section>
 @endsection
