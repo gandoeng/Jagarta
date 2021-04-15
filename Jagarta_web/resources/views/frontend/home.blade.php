@@ -192,54 +192,68 @@
 		<section class="section-team">
 			<div class="container height-1000">
 				<div class="row height-1000" style="margin-left: 8%;">
-					<div class="col-lg-12" style="height: 50px; z-index:1; ">
+					<div class="col-lg-12" style="height: 50px;">
 						<h1 class="text-center about-team">Our Team <hr class="about-border"> </h1>
 					</div>
 			
 					<div class="team-col-ps">
-
-						<div class="row" style="height: 100%; width: 100%;">
+						<div class="row max-wh">
 							<div class="col col-bio">
-								<img src="{{asset('img/team/mungki.png')}}" style="max-width: 100%; max-height: 100%;">
+								<img src="{{asset('img/team/mungki.png')}}" class="max-wh">
 							</div>
-							<div class="col col-bio" style="z-index: 1;">
+
+							<div class="col col-bio ">
 								<div class="triangle-left"></div>
 							</div>
-							<div style="z-index: 2; position: absolute; margin-left: 320px; margin-top: 65px; width: 500px; height: 300px;">
-								<h1 style="font-family: 'jagarta2'; color: #16145F; font-size: 36pt; ">Mungki Ariwibowo Adil</h1>
-								<p style="font-family: 'jagarta'; font-size: 10pt; position: relative; bottom: 15px;">Co-Founder <hr style="border-top: 4px solid; color: #AE5528; width: 80px; margin:0; position: relative; bottom: 20px;"></p>
-								<p style="font-size: 10pt; font-family: 'jagarta'; position: relative; bottom: 6%;">Before co-founding Jagartha in 2017, Ari Adil was Senior Executive Vice President of Mandiri Investasi. He started his career in Westpac Banking Group in Sydney and decided to move back to Indonesia joining Danareksa Investment in 2003. Later he decided to expand his role by joining Bank Julius Baer Singapore and was promoted to setup Julius Baer Advisors Indonesia as Director in 2008</p>
+
+							<div class="mungki-desc-ps">
+								<h1 class="mungki-h1">Mungki Ariwibowo Adil</h1>
+								<p class="mungki-p-pos">Co-Founder <hr class="mungki-border"></p>
+								<p class="mungki-bio">Before co-founding Jagartha in 2017, Ari Adil was Senior Executive Vice President of Mandiri Investasi. He started his career in Westpac Banking Group in Sydney and decided to move back to Indonesia joining Danareksa Investment in 2003. Later he decided to expand his role by joining Bank Julius Baer Singapore and was promoted to setup Julius Baer Advisors Indonesia as Director in 2008</p>
 							</div>
 
-							<div class="col col-bio" style="z-index: 1;">
+							<div class="col col-bio " >
 								<div class="triangle-left"></div>
 							</div>
 						</div>
 
-						<div class="row" style="height: 100%; width: 100%;">
+						<div class="row max-wh">
+							<div class="col col-bio">
+								<div class="triangle-left">
+									
+								</div>
+							</div>
+
+							<div class="iwan-desc-ps">
+								<h1 class="iwan-h1">FW Iwan</h1>
+
+								<p class="iwan-p-pos">Co-Founder & Chief Executive Officer <hr class="iwan-border"></p>
+								<p class="iwan-bio">Iwan was a Group Head of Sales and Marketing in Mandiri Investasi before co-founding Jagartha in 2017. Fast-track his career since joining Graduate Development Program in Commonwealth Bank and later he move to Citibank N.A. as Wealth Management Sales and Advisory Head in 2013. Strong passion in sales and investment leading him to gain stellar achievement in his last journey in Mandiri Investasi by growing the company AUM from IDR 30tn to IDR 50tn+ within 3 years to become the largest asset management in Indonesia</p>
+							</div>
+
 							<div class="col col-bio">
 								<div class="triangle-left">
 									
 								</div>
 							</div>
 							<div class="col col-bio">
-								<div class="triangle-left">
-									
-								</div>
-							</div>
-							<div class="col col-bio">
-								<img src="{{asset('img/team/iwan.png')}}" style="max-width: 100%; max-height: 100%;">
+								<img src="{{asset('img/team/iwan.png')}}" class="max-wh">
 							</div>
 						</div>
 
-						<div class="row" style="height: 100%; width: 100%;">
+						<div class="row max-wh">
 							<div class="col col-bio">
-								<img src="{{asset('img/team/markus.png')}}" style="max-width: 100%; max-height: 100%;">
+								<img src="{{asset('img/team/markus.png')}}" class="max-wh">
 							</div>
 							<div class="col col-bio">
 								<div class="triangle-left">
 									
 								</div>
+							</div>
+							<div class="erik-desc-ps">
+								<h1 class="mungki-h1">Markus Erik Argasetya</h1>
+								<p class="mungki-p-pos">Co-Founder & Chief Investment Officer <hr class="mungki-border"></p>
+								<p class="mungki-bio">Erik joined Jagartha in 2019. Prior to joining the company, he was Head of Market Intelligence and Investment Advisory at DBS Bank Indonesia. Starting his career in Westpac Private Bank, Australia and decided to return to Indonesia in 2008.Subsequently, he joined ABN Amro Bank N.V. and Citibank N.A. Indonesia with responsibility in expanding wealth management business. Strong passion in Research and Investment Advisory bring him to join DBS Bank to grow the Investment Business and become lead project manager in setting up DBS Private Banking Division in Indonesia</p>
 							</div>
 							<div class="col col-bio">
 								<div class="triangle-left">
@@ -248,12 +262,19 @@
 							</div>
 						</div>
 
-						<div class="row" style="height: 100%; width: 100%;">
+						<div class="row max-wh">
 							<div class="col col-bio" >
 								<div class="triangle-left">
 									
 								</div>
 							</div>
+							<div class="iwan-desc-ps">
+								<h1 class="iwan-h1">???</h1>
+
+								<p class="iwan-p-pos">??? <hr class="iwan-border"></p>
+								<p class="iwan-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+							</div>
+
 							<div class="col col-bio">
 								<div class="triangle-left">
 									
