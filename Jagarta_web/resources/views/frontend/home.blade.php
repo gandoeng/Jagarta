@@ -191,7 +191,7 @@
 		<!-- section our team -->
 		<section class="section-team">
 			<div class="container height-1000">
-				<div class="row height-1000" style="margin-left: 8%;">
+				<div class="row height-1000">
 					<div class="col-lg-12" style="height: 50px;">
 						<h1 class="text-center about-team">Our Team <hr class="about-border"> </h1>
 					</div>
@@ -283,10 +283,50 @@
 							<div class="col col-bio" style="background-color: #6B6A74;">
 							</div>
 						</div>
-
 						
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!--section batik card-->
+		<section class="section-batik">
+			<div class="container container-batik">
+				<div class="row height-500">
+					<div class="col margin-top-4p">
+						<div class="card batik-card-adv">
+							
+							<img src="{{asset('img/logo2.png')}}" class="batik-img"><hr class="batik-logo-border">
+
+							<p class="batik-p">Independent investment advisory company with license from Indonesia’s Financial Authority (OJK) with focused on B2B to provide integrated advisory platform across the ecosystem </p>
+						</div>
+					</div>
+					<div class="col margin-top-4p">
+						<div class="card batik-card-cap" >
+							<img src="{{asset('img/logo3.png')}}" class="batik-img"><hr class="batik-logo-border">
+
+							<p class="batik-p">Indonesia-focused investment holdings firm that invest and builds groundbreaking companies to support the growing ecosystem with focus in fintech, circular economy and creative industry </p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
+
+		<!--section credentioal -->
+		<section style="width: 100%; height: 500px;">
+			<div id="credentials">
+				<div class="container height-500">
+					<div class="row height-500">
+						<div class="col-lg-12">
+							<h1 class="text-center about-title">Credentials <hr class="about-border"> </h1>
+						</div>
+						<div class="col-lg-12">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 @endsection
