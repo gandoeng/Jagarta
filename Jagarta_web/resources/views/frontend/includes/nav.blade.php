@@ -24,7 +24,7 @@
                     <a class="nav-link" href="#credentials">CREDENTIALS</a>
                 </li>
                 <li class="navbar-item">
-                    <a class="nav-link" href="#contact">CONTACT US</a>
+                    <button class="nav-link btn btn-default" type="button" data-toggle="modal" data-target="#contactModal" style="font-family: 'jagarta'; color: white;">CONTACT US</button>
                 </li>
             </ul>
         </div>
