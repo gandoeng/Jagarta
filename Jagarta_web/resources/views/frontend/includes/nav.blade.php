@@ -7,24 +7,18 @@
 
         <div class="collapse navbar-collapse " id="collapse_target">
             <a class="navbar-brand" href="#" style="margin-right: 8%;"><img src="{{asset('img/logo.png')}}" alt="jagartha logo"></a>
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav ul-nav-ps">
                 <li class="navbar-item">
                     <a class="nav-link" href="#about">ABOUT US</a>
                 </li>
-                <li class="navbar-item">
-                    <a class="nav-link" href="#services">SERVICES</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="nav-link" href="#capital">JAGARTHA CAPITAL</a>
-                </li>
-                <li class="navbar-item">
-                    <a class="nav-link" href="#advisor">JAGARTHA ADVISOR</a>
+                <li class="navbar-item dropdown">
+                    <a class="nav-link" href="#jagartha">SERVICES</a>
                 </li>
                 <li class="navbar-item">
                     <a class="nav-link" href="#credentials">CREDENTIALS</a>
                 </li>
                 <li class="navbar-item">
-                    <button class="nav-link btn btn-default" type="button" data-toggle="modal" data-target="#contactModal" style="font-family: 'jagarta'; color: white;">CONTACT US</button>
+                    <button class="nav-link btn btn-default nav-contact" type="button" data-toggle="modal" data-target="#contactModal" >CONTACT US</button>
                 </li>
             </ul>
         </div>
